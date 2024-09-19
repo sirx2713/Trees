@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tree_view/bottomnav.dart';
 import 'package:tree_view/treeview.dart';
 
 class Onboarding extends StatefulWidget {
@@ -31,7 +32,7 @@ class _OnboardingState extends State<Onboarding> {
               SizedBox(height: 350,),
               GestureDetector(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Treeview()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Bottomnav()));
                 },
                 child: Container(
                   alignment: Alignment.center,
